@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 49f8997a-b4c8-4f0c-aad1-dba88338780e)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 99.06 52.705) (size 33.655 27.305) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b661b6e2-1f24-46b0-9129-b25b7a66cb04)
+    (property "Sheetname" "LS" (at 99.06 51.9934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ls.kicad_sch" (at 99.06 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Schlossueberwachung"
+        (path "/49f8997a-b4c8-4f0c-aad1-dba88338780e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 50.165 52.07) (size 35.56 28.575) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f0e653d8-c306-462a-b9b7-8cda39e83b61)
+    (property "Sheetname" "Clockgen" (at 50.165 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "clockgen.kicad_sch" (at 50.165 81.2296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Schlossueberwachung"
+        (path "/49f8997a-b4c8-4f0c-aad1-dba88338780e" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
